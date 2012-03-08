@@ -1,3 +1,7 @@
+//Project Euler Problem 1
+//http://projecteuler.net/problem=1
+//Find the sum of all the multiples of 3 or 5 below 1000.
+
 #include <stdio.h>
 
 int main(int argc, char *argv[]){
@@ -12,7 +16,7 @@ int main(int argc, char *argv[]){
     i++;
   }
 
-  printf("Sum of multiples of 3 or 5 is %d",sum);
+  printf("Sum of multiples of 3 or 5 is %d",sum); //233168
 
   return 0;
 }
