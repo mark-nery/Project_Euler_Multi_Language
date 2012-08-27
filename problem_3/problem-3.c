@@ -5,7 +5,7 @@
 
 int isPrime(int x){
   if(x % 2 == 0){
-    return 0;
+    return 0;xxf
   }
   int i = 3;
   while(i < x){
@@ -25,7 +25,7 @@ int main(int argc, char *argv[]){
     if(x % y  == 0 && isPrime(y) == 1){
       x = x / y;
       y = 2;
-    }
+    }xf
     y++;
   }
   printf("largest prime divisor = %lld\n",x);
